@@ -1,76 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>Etalon</title>
+<!--Adobe Edge Runtime-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script>
     <style>
-        body{
-            margin: 0;
-            padding: 0;
-        }
-        .wrap{
-            width: 120px;
-		    transition-property: transform;
-		    transition-duration: 4000ms;
-            height: 670px;
-            background: orange;
-            position: relative;
-            overflow: hidden;
-        }
-        .doors{
-            position: absolute;
-            top: 250px;
-            left: 10px;
-            width: 100px;
-            height: 250px;
-            animation: door 10s infinite ease-in;
-        }
-        @keyframes door{
-	0%{opacity: 0;
-                transform: scale(0);
-            background: url(./1.jpg) no-repeat;
-}
-            3%,25% {opacity: 1;
-            background: url(./1.jpg) no-repeat;
-                transform: scale(1);}
-
-            28% {opacity: 0;
-                transform: scale(0);
-                background: url(./2.jpg) no-repeat;
-}
-
-            30%,55% {opacity: 1;
-            background: url(./2.jpg) no-repeat;
-                 transform: scale(1);
-            }
-
-            58% {opacity: 0;
-                background: url(./3.jpg) no-repeat;
-                 transform: scale(0);}
-
-            60%, 85% {opacity: 1;
-                background: url(./3.jpg) no-repeat;
-                 transform: scale(1);
-            }
-            90%,100% {opacity: 0;
-
-                transform: scale(0);}
-        }
+        .edgeLoad-EDGE-15728487 { visibility:hidden; }
     </style>
+<!--Adobe Edge Runtime End-->
+
 </head>
-<body>
-    <div class="wrap">
-        <div class="logo">
-            <div class="doors">
-
-            </div>
-            <div class="phone">
-
-            </div>
-            <div class="insta"></div>
-        </div>
-    </div>
+<body style="margin:0;padding:0;">
+	<div id="Stage" class="EDGE-15728487">
+	</div>
 </body>
 </html>
